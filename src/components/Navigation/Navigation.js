@@ -19,7 +19,7 @@ const linkStyles = {
   letterSpacing: '0.8px',
   _hover: {
     textDecoration: 'none',
-    backgroundColor: '#ff1389',
+    backgroundColor: '#3e7bdd',
     color: 'white',
     borderRadius: '5px',
     padding: '8px',
@@ -29,7 +29,7 @@ const linkStyles = {
 export default function Navigation() {
   const { isLoggedIn } = useAuth();
   const { colorMode, toggleColorMode } = useColorMode();
-  const bgColor = useColorModeValue('pink.100', 'pink.900');
+  const bgColor = useColorModeValue('green.100', 'green.900');
   const color = useColorModeValue('black', 'white');
 
   return (

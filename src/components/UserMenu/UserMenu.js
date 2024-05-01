@@ -14,13 +14,13 @@ export default function UserMenu() {
       flexDirection="column"
       alignItems="center"
       gap="8px"
-      backgroundColor="#f4d3f0"
+      backgroundColor="#8db8e2"
       boxShadow="0 4px 8px rgba(0, 0, 0, 0.1)"
       maxWidth="300px"
       margin="auto"
       marginTop="20px"
 
-      bg="pink.100"
+      bg="green.100"
 
     >
       <Avatar

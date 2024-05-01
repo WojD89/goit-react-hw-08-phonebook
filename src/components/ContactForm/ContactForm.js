@@ -16,8 +16,8 @@ function ContactForm() {
     
   };
 
-  const buttonBgColor = '#FF69B4';
-  const buttonHoverColor = '#e2347a';
+  const buttonBgColor = '#aaeee9';
+  const buttonHoverColor = '#21b7b2';
   const buttonStyles = {
     bg: buttonBgColor,
     color: 'white',

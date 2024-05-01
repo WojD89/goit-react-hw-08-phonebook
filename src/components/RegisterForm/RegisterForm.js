@@ -13,12 +13,12 @@ import {
 
 const RegisterForm = () => {
   const dispatch = useDispatch();
-  const bgColor = useColorModeValue('pink.100', 'pink.900');
+  const bgColor = useColorModeValue('green.100', 'green.900');
   const color = useColorModeValue('black', 'white');
 
-  const inputBgColor = '#f9c7cf';
-  const buttonBgColor = '#f9c7cf';
-  const buttonHoverColor = '#ff1389';
+  const inputBgColor = '#fff';
+  const buttonBgColor = '#aaeee9';
+  const buttonHoverColor = '#0f4c4a';
 
   const buttonStyles = {
     bg: buttonBgColor,

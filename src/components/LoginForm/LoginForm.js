@@ -9,9 +9,9 @@ function LoginForm() {
         
     }, [dispatch]);
 
-    const inputBgColor = '#f9c7cf';
-    const buttonBgColor = '#f9c7cf';
-    const buttonHoverColor = '#ff1389';
+    const inputBgColor = '#fff';
+    const buttonBgColor = '#aaeee9';
+    const buttonHoverColor = '#21b7b2';
 
     const buttonStyles = {
         bg: buttonBgColor,
@@ -37,7 +37,7 @@ function LoginForm() {
             p="20px"
             border="1px solid #ddd"
             borderRadius="5px"
-            bg="pink.100"
+            bg="green.100"
         >
             <form className="loginForm" onSubmit={handleSubmit}>
                 <FormControl mb="15px">
